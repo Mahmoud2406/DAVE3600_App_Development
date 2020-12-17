@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="regnestykker">
+        <item>4 + 5</item>
+        <item>3 + 3</item>
+        <item>6 + 3</item>
+        <item>7 + 6</item>
+        <item>11 + 5</item>
+        <item>13 + 4</item>
+        <item>10 + 4</item>
+        <item>14 + 2</item>
+        <item>1 + 8</item>
+        <item>4 + 6</item>
+        <item>3 + 2</item>
+        <item>5 + 9</item>
+        <item>10 + 12</item>
+        <item>7 + 2</item>
+        <item>13 + 8</item>
+        <item>4 + 17</item>
+        <item>5 + 15</item>
+        <item>13 + 7</item>
+        <item>14 + 4</item>
+        <item>10 + 8</item>
+        <item>7 + 7</item>
+        <item>13 + 13</item>
+        <item>16 + 17</item>
+        <item>11 + 5</item>
+        <item>13 + 9</item>
+    </string-array>
+    <string-array name="resultater">
+        <item>9</item>
+        <item>6</item>
+        <item>9</item>
+        <item>13</item>
+        <item>16</item>
+        <item>17</item>
+        <item>14</item>
+        <item>16</item>
+        <item>9</item>
+        <item>10</item>
+        <item>5</item>
+        <item>14</item>
+        <item>22</item>
+        <item>9</item>
+        <item>21</item>
+        <item>21</item>
+        <item>20</item>
+        <item>20</item>
+        <item>18</item>
+        <item>18</item>
+        <item>14</item>
+        <item>16</item>
+        <item>33</item>
+        <item>16</item>
+        <item>22</item>
+    </string-array>
+    <!-- Reply Preference -->
+    <string-array name="antallregnestykker">
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+    </string-array>
+    <string-array name="antallregnestykker_val">
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Norwegen</item>
+        <item>Deutsche</item>
+    </string-array>
+    <string-array name="languages_val">
+        <item>no</item>
+        <item>de</item>
+    </string-array>
+</resources>

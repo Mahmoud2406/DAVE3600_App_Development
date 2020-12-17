@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Google maps</string>
+    <string name="ny_hus">Ny Hus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reservasjon">Reservasjon</string>
+    <string name="studentnavn">Studentnavn</string>
+    <string name="todo">TODO</string>
+    <string name="romnummerreg">Romnummer</string>
+    <string name="pp">PP</string>
+    <string name="rom_registrering">Rom registrering</string>
+    <string name="navn">Navn:</string>
+    <string name="dato">Dato:</string>
+    <string name="fra">Fra:</string>
+    <string name="_5">5</string>
+    <string name="til">Til:</string>
+    <string name="beskrivelse">Beskrivelse</string>
+    <string name="beskrivelsereg">Beskrivelse:</string>
+    <string name="etasjereg">Etasje:</string>
+    <string name="grupperomreg">Grupperom</string>
+</resources>

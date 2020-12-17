@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="sendSms"
+        android:title="Send    sms/notifikasjon"
+        />
+
+    <com.example.s331361.Builders.TimePreference
+        android:key="smsTid"
+        android:title="Sms tid"/>
+
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="smsMelding"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Sms melding" />
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/empty3" android:enabled="false" android:visible="false" android:title="" app:showAsAction="never"  />
+    <item android:id="@+id/kontakter" android:icon="@drawable/ic_kontaktbottom" android:title="Kontakter" app:showAsAction="ifRoom" />
+    <item android:id="@+id/mote"  android:icon="@drawable/ic_motebottom" android:title="Møter" app:showAsAction="ifRoom" />
+    <item android:id="@+id/innstillinger" android:icon="@drawable/ic_innstillinger" android:title="Innstillinger" app:showAsAction="ifRoom" />
+    <item android:id="@+id/empty" android:enabled="false" android:visible="false" android:title="" app:showAsAction="never"  />
+</menu>

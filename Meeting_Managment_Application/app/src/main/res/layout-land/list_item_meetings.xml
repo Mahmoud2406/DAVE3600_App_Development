@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="@drawable/shadow"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageView
+
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_weight="1.5"
+        android:contentDescription="@string/mooter"
+        android:padding="5dp"
+        app:srcCompat="@drawable/ic_meeting" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:weightSum="90">
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingStart="5dp"
+            android:paddingEnd="3dp"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:ignore="RtlCompat"
+            tools:text="Type: Infomøtefoross"></TextView>
+
+        <TextView
+            android:id="@+id/place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingStart="5dp"
+            android:paddingEnd="3dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:ignore="RtlCompat"
+            tools:text="hgjkghklgfkgkf"></TextView>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:paddingEnd="3dp"
+            android:text="@string/mooteinfo"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2">
+
+
+        <ImageView
+            android:id="@+id/showContacts"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="7dp"
+            android:background="@drawable/shadowview"
+            android:contentDescription="@string/leggtil"
+            android:padding="8dp"
+            app:srcCompat="@drawable/ic_showcontacts"></ImageView>
+
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="7dp"
+            android:background="@drawable/shadowedit"
+            android:contentDescription="@string/title_activity_edit_meetings"
+            android:padding="8dp"
+            app:srcCompat="@drawable/ic_edit" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="7dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/shadowdelete"
+            android:contentDescription="@string/deleteicon"
+            android:padding="8dp"
+            app:srcCompat="@drawable/ic_delete" />
+
+    </LinearLayout>
+</LinearLayout>

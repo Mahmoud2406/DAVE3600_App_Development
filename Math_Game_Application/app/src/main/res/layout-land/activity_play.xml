@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_game">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/gameInfo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="0dp"
+                android:baselineAligned="false"
+                android:paddingStart="20dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="40dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="clip_vertical|center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aldrich"
+                        android:gravity="center"
+                        android:lineSpacingExtra="8sp"
+                        android:paddingStart="0dp"
+                        android:paddingEnd="10dp"
+                        android:paddingBottom="10dp"
+                        android:shadowColor="@color/TransparentGrey"
+                        android:shadowDx="3"
+                        android:shadowDy="3"
+                        android:shadowRadius="16"
+                        android:text="@string/riktig"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aldrich"
+                        android:gravity="center"
+                        android:lineSpacingExtra="8sp"
+                        android:paddingStart="0dp"
+                        android:paddingEnd="10dp"
+                        android:shadowColor="@color/TransparentGrey"
+                        android:shadowDx="3"
+                        android:shadowDy="3"
+                        android:shadowRadius="16"
+                        android:text="@string/feil"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="clip_vertical|center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="30dp">
+
+                    <TextView
+                        android:id="@+id/right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:fontFamily="@font/aldrich"
+                        android:gravity="center"
+                        android:shadowColor="@color/TransparentGrey"
+                        android:shadowDx="3"
+                        android:shadowDy="3"
+                        android:shadowRadius="16"
+                        android:text="@string/num0"
+                        android:textAlignment="0"
+                        android:textColor="#79FF7E"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/wrong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aldrich"
+                        android:gravity="center"
+                        android:shadowColor="@color/TransparentGrey"
+                        android:shadowDx="3"
+                        android:shadowDy="3"
+                        android:shadowRadius="16"
+                        android:text="@string/num0"
+                        android:textAlignment="0"
+                        android:textColor="#F4DB36"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <fragment
+                android:id="@+id/fragmentCalc"
+                android:name="com.example.s331361mappe1.fragments.CalculationFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|center"
+                android:orientation="horizontal"
+                tools:layout="@layout/fragment_calculation" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:paddingStart="110dp"
+            android:paddingEnd="110dp"
+            android:baselineAligned="false">
+
+            <fragment
+                android:id="@+id/fragmentInput"
+                android:name="com.example.s331361mappe1.fragments.InputFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="30dp"
+                tools:layout="@layout/fragment_input" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

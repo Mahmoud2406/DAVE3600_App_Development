@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">matteopplærings-app</string>
+    <string name="gametitle1">MATHE</string>
+    <string name="gametitle2">SPIELE</string>
+    <string name="producer">von Mahmoud und Abdulrazak</string>
+    <string name="start">Anfang</string>
+    <string name="statistics">STATISTIKEN</string>
+    <string name="preferencer">Vorlieben</string>
+    <string name="logo">logo</string>
+    <string name="antallriktige">Richtigen </string>
+    <string name="antallfeil">Fehler</string>
+    <string name="play">Play</string>
+    <!--   for prefrencer   -->
+    <string name="velgspråk">Wähle deine Sprache:</string>
+    <string name="Velganallregnestykker">Alle Berechnungen auswählen:</string>
+
+    <!--   various   -->
+    <string name="num0">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="num10">10</string>
+    <string name="num15">15</string>
+    <string name="norsk">Norsk</string>
+    <string name="duetch">Duetch</string>
+
+
+
+    <!-- Warning Titles -->
+    <string name="warningTitle">Warnung</string>
+    <string name="warning">Sie müssen eine Antwort eingeben</string>
+    <string name="grant">Ok</string>
+
+
+    <string name="ok">Ausgang</string>
+    <string name="playAgain">Nochmal abspielen</string>
+    <string name="notok">Nein</string>
+    <string name="finishDialogRight">Richtigen</string>
+    <string name="finishDialogTitle">Möchtest du kündigen?</string>
+    <string name="gameMsg">Es gibt keine weiteren Berechnungen. Das Ergebnis war: </string>
+    <string name="count_header">Anzahl der Berechnungen</string>
+    <string name="language_header">Sprache</string>
+    <string name="sync_header">Sync</string>
+
+
+    <!-- statistisks -->
+    <string name="nullstille">Zurücksetzen</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="antallregnestykker"> </string>
+    <string name="riktig">Richtigen</string>
+    <string name="feil">Fehler</string>
+
+
+</resources>

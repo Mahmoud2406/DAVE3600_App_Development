@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ContactsFragment"
+    android:id="@+id/container">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shadowactionbar"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingRight="5dp"
+                    android:text="@string/mooter"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/logo"
+                app:srcCompat="@drawable/headerlogo"></ImageView>
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/meetinglist"
+            android:layout_width="match_parent"
+            android:layout_height="634dp"
+            android:layout_marginTop="5dp"
+            android:divider="@null"
+            android:dividerHeight="0dp">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/addMeeting"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="0dp"
+            android:background="@drawable/circle"
+            android:contentDescription="@string/leggtil"
+            android:foreground="@drawable/ic_add_main"
+            android:foregroundTint="#FFFFFF" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

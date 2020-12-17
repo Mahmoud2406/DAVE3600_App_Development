@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_game">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="106dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="80dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/logo"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/figure" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/calc_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="411dp"
+            android:layout_height="53dp"
+            android:background="@drawable/calc_bg"
+            android:fontFamily="@font/aldrich"
+            android:shadowColor="@color/TransparentGrey"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="16"
+            android:text="@string/statistics"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:id="@+id/gameInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aldrich"
+                    android:lineSpacingExtra="8sp"
+                    android:shadowColor="@color/TransparentGrey"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="16"
+                    android:text="@string/antallriktige"
+                    android:textAlignment="viewStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aldrich"
+                    android:lineSpacingExtra="8sp"
+                    android:shadowColor="@color/TransparentGrey"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="16"
+                    android:text="@string/antallfeil"
+                    android:textAlignment="viewStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/antRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="center"
+                    android:shadowColor="@color/TransparentGrey"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="16"
+                    android:text="@string/num0"
+                    android:textAlignment="center"
+                    android:textColor="#79FF7E"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/antWrong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="center"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="10dp"
+                    android:shadowColor="@color/TransparentGrey"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="16"
+                    android:text="@string/num0"
+                    android:textAlignment="center"
+                    android:textColor="#F4DB36"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/slettBtn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/aldrich"
+            android:padding="10dp"
+            android:shadowColor="@color/TransparentGrey"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="16"
+            android:text="@string/nullstille" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

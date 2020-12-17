@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/count_header">
+
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/antallregnestykker"
+            android:entryValues="@array/antallregnestykker"
+            android:key="antallValgt_Key"
+            android:title="@string/antallregnestykker"
+            android:summary="%s"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/language_header">
+
+        <ListPreference
+            android:defaultValue="no"
+            android:entries="@array/languages"
+            android:entryValues="@array/languages_val"
+            android:key="spraak_Key"
+            android:title="@string/language_header"
+            android:summary="%s"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

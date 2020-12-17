@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">matteopplærings-app</string>
+    <string name="gametitle1">MATTE</string>
+    <string name="gametitle2">SPILL</string>
+    <string name="producer">av Mahmoud og Abdulrazak</string>
+    <string name="start">start</string>
+    <string name="statistics">STATISTIKK</string>
+    <string name="preferencer">preferencer</string>
+    <string name="logo">logo</string>
+    <string name="ok">Avslutt</string>
+    <string name="notok">Nei</string>
+    <string name="playAgain">Spill igjen</string>
+    <string name="finishDialogRight">Riktig</string>
+    <string name="finishDialogTitle">Vil du avslutte?</string>
+    <string name="gameMsg">Det er ikke flere regnestykker. Resultatet ble: </string>
+    <string name="play">Play</string>
+    <string name="antallriktige">Antall Riktige </string>
+    <string name="antallfeil">Antall Feil</string>
+    <!--   for prefrencer   -->
+    <string name="velgspråk">Velg Språk:</string>
+    <string name="Velganallregnestykker">Velg anall regnestykker:</string>
+
+    <!--   various   -->
+    <string name="num0">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="num10">10</string>
+    <string name="num15">15</string>
+    <string name="norsk">Norsk</string>
+    <string name="duetch">Duetch</string>
+    <!-- Preference Titles -->
+    <string name="count_header">Antall regnestykker</string>
+    <string name="language_header">Språk</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Warning Titles -->
+    <string name="warningTitle">Advarsel</string>
+    <string name="warning">Du må skrive inn et svar</string>
+    <string name="grant">OK</string>
+
+
+    <!-- statistisks -->
+    <string name="nullstille">Nullstill</string>
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="antallregnestykker"> Antall </string>
+    <string name="riktig">Riktig</string>
+    <string name="feil">Feil</string>
+
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|center_horizontal"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/legg_til_kontakt"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/innNavn"
+            style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/navn"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/feilnavn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <EditText
+            android:id="@+id/innTelefon"
+            style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:ems="10"
+            android:hint="@string/telefon"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/feiltelefon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <Button
+            android:id="@+id/addContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/blue"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/leggtil"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</FrameLayout>

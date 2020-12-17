@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/maps_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/topbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/border_box"
+                android:padding="5dp"
+                android:weightSum="1">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/borderinfo"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_house" />
+
+                    <Spinner
+                        android:id="@+id/spinner1"
+                        style="@style/Spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="0.8"
+                        android:foregroundTint="#FFFFFF"
+                        android:gravity="center"
+                        android:spinnerMode="dropdown" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    app:srcCompat="@drawable/logo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/info2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border_info"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_margin="2pt"
+                            android:foregroundGravity="left"
+                            app:srcCompat="@drawable/ic_opptatt" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="3pt"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/varela_round"
+                            android:text="Registrerte"
+                            android:textSize="9sp"
+                            android:textStyle="normal" />
+
+                        <ImageView
+                            android:id="@+id/closeinfo2"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_gravity="center|right|top"
+                            app:srcCompat="@drawable/ic_close" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_margin="2pt"
+                            android:layout_weight="1"
+                            android:foregroundGravity="left"
+                            app:srcCompat="@drawable/ic_ledig" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="3pt"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/varela_round"
+                            android:text="Ikke registrerte"
+                            android:textSize="9sp"
+                            android:textStyle="normal" />
+
+                        <ImageView
+                            android:id="@+id/closeinfo"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_margin="2pt"
+                            android:layout_weight="1"
+                            android:visibility="invisible"
+                            app:srcCompat="@drawable/ic_close" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_margin="2pt"
+                            android:layout_weight="1"
+                            android:foreground="@drawable/ic_number"
+                            android:foregroundGravity="left|center_vertical"
+                            app:srcCompat="@drawable/ic_circle" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="3pt"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/varela_round"
+                            android:text="Antall etasjer"
+                            android:textSize="9sp"
+                            android:textStyle="normal" />
+
+                        <ImageView
+                            android:id="@+id/closeinfo3"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_margin="2pt"
+                            android:layout_weight="1"
+                            android:visibility="invisible"
+                            app:srcCompat="@drawable/ic_close" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/infolayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/border_info"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="3pt"
+                        android:fontFamily="@font/varela_round"
+                        android:padding="5dp"
+                        android:text="Hold inne på et Oslomet \nbygg for å lagre et nytt hus"
+                        android:textSize="9sp"
+                        android:textStyle="normal" />
+
+                    <ImageView
+                        android:id="@+id/slettInfo"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="right|top"
+                        app:srcCompat="@drawable/ic_close" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vKnapp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@id/parent"
+            android:layout_alignBottom="@id/parent"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_background"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/endreHus"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:background="@drawable/border_button"
+                android:src="@drawable/ic_hus" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hKnapp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignEnd="@id/parent"
+            android:layout_alignBottom="@id/parent"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_background_right"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/endreReservasjon"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/border_button"
+                android:foregroundGravity="center_vertical|clip_horizontal"
+                android:src="@drawable/ic_addreservasjon" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

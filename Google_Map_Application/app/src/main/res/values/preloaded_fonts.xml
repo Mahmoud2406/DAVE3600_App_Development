@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allerta_stencil</item>
+        <item>@font/archivo_black</item>
+        <item>@font/baloo_da</item>
+        <item>@font/basic</item>
+        <item>@font/coda</item>
+        <item>@font/hammersmith_one</item>
+        <item>@font/montserrat_alternates</item>
+        <item>@font/ubuntu_light</item>
+        <item>@font/varela_round</item>
+    </array>
+</resources>
